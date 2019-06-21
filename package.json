@@ -24,6 +24,8 @@
     "@babel/preset-env": "^7.2.3",
     "babel-loader": "^8.0.4",
     "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
     "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",

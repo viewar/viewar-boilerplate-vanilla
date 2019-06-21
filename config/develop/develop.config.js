@@ -2,7 +2,7 @@ const merge = require('webpack-merge');
 const ip = require('ip').address();
 const webpack = require('webpack');
 
-const { setFreeVariable, buildPath } = require('../utils');
+const { setFreeVariable, buildPath, before } = require('../utils');
 
 exports.config = merge([
   {
@@ -12,6 +12,7 @@ exports.config = merge([
       port: process.env.PORT,
       contentBase: buildPath,
       hot: true,
+      before, 
     },
     devtool: 'inline-source-map',
     output: {
