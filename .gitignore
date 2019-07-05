@@ -1,4 +1,3 @@
+.viewar-config
 node_modules/
 build/
-.viewar-config
-npm-debug.log
