@@ -1,7 +1,7 @@
 {
-  "name": "VASB-6839-test",
+  "name": "viewar-boilerplate",
   "version": "1.0.1",
-  "description": "",
+  "description": "Boilerplate app for ViewAR SDK",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf build && rimraf bundle",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "fastclick": "^1.0.6",
-    "viewar-api": "file:../ViewAR-Repos/viewar-scripts",
+    "viewar-api": "^0.30.2",
     "viewar-core": "^11.18.1"
   }
 }

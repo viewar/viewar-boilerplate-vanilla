@@ -37,3 +37,4 @@ import './index.scss';
   console.warn('warn');
   console.error('error');
 })();
+
