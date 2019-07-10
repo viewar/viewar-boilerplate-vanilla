@@ -1,13 +1,11 @@
 const merge = require('webpack-merge');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { srcPath } = require('./utils');
+const { srcPath, getViewARConfig } = require('./utils');
 const fs = require('fs');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const { appId, appVersion } = JSON.parse(
-  fs.readFileSync(`${__dirname}/../.viewar-config`)
-);
+const { appId, appVersion } = getViewARConfig();
 
 exports.config = merge([
   {

@@ -16,6 +16,18 @@ const root = path.join(__dirname, '..');
 const srcPath = path.join(root, 'src');
 const buildPath = path.join(root, 'build');
 
+const getViewARConfig = () => {
+  try {
+    return JSON.parse(fs.readFileSync(`${__dirname}/../.viewar-config`));
+  } catch (e) {
+    console.error(
+      '[ViewAR] ERROR: File .viewar-config not existing or invalid JSON format.'
+    );
+    return {};
+  }
+};
+
+// Webpack-dev-server's before function to receive remote console output.
 const before = (app) => {
   const colors = {
     log: 'white',
@@ -38,5 +50,6 @@ module.exports = {
   setFreeVariable,
   srcPath,
   buildPath,
+  getViewARConfig,
   before,
 };
