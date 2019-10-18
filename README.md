@@ -1,5 +1,8 @@
 # ViewAR vanilla sample
 
+[![Build Status](https://travis-ci.com/viewar/viewar-boilerplate-vanilla.svg?&branch=master)](https://travis-ci.com/viewar/viewar-boilerplate-vanilla) 
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=viewar/viewar-boilerplate-vanilla)](https://dependabot.com)
+
 This sample project demonstrates a basic usage of the [ViewAR Api](https://www.npmjs.com/package/viewar-api) using pure JavaScript without any framework.
 
 #### Features:
