@@ -1,6 +1,6 @@
 {
   "name": "viewar-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Boilerplate app for ViewAR SDK",
   "main": "index.js",
   "scripts": {
