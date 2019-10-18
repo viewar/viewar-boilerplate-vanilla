@@ -1,6 +1,6 @@
 {
   "name": "viewar-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Boilerplate app for ViewAR SDK",
   "main": "index.js",
   "scripts": {
@@ -26,16 +26,16 @@
     "babel-polyfill": "^6.26.0",
     "body-parser": "^1.19.0",
     "chalk": "^2.4.2",
-    "copy-webpack-plugin": "^4.6.0",
+    "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.11.0",
-    "postcss": "^7.0.7",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.18",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
-    "postcss-preset-env": "^6.5.0",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^1.15.3",
     "rimraf": "^2.6.3",
     "sass-loader": "^7.1.0",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "fastclick": "^1.0.6",
-    "viewar-api": "^0.47.1",
-    "viewar-core": "^11.34.2"
+    "viewar-core": "^11.41.1",
+    "viewar-api": "^0.56.1"
   }
 }
