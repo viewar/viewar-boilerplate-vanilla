@@ -21,12 +21,4 @@ import './index.scss';
       },
     });
   }
-
-  console.log('log', {
-    'a': 1234,
-    'b': '5678',
-  });
-  console.info('info');
-  console.warn('warn');
-  console.error('error');
 })();
