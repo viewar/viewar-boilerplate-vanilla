@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "Boilerplate app for ViewAR SDK",
   "main": "index.js",
+  "repository": "https://github.com/viewar/viewar-boilerplate-react.git",
   "scripts": {
     "clean": "rimraf build && rimraf bundle",
     "deploy": "viewar-cli deploy",
