@@ -50,6 +50,6 @@
     "fastclick": "^1.0.6",
     "set-value": "^3.0.1",
     "viewar-api": "^1.1.0",
-    "viewar-core": "^11.65.1"
+    "viewar-core": "^11.66.0"
   }
 }
